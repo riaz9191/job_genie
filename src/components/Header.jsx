@@ -43,7 +43,7 @@ const Header = () => {
       </nav>
       {/* btn  */}
       <div>
-        <button className="pl-5 pr-5 pt-3 pb-3 start-applying rounded-lg ps text-white st">
+        <button className="pl-5 pr-5 pt-3 pb-3 start-applying rounded-lg  text-white st">
           Start Applying
         </button>
       </div>
