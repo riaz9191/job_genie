@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import SingleCata from "./SingleCata";
 
-const JobCategory = ({ jData }) => {
+const JobCategory = () => {
+  const [jData, setJData] = useState([]);
+  useEffect(() => {
+    fetch('https://raw.githubusercontent.com/Porgramming-Hero-web-course/b7a9-career-hub-riaz9191/main/public/categoryData.json?token=GHSAT0AAAAAACAN3SO2NGTADUHUX6IHN57WZBVIB7A')
+    .then(res=> res.json())
+    .then(data=>setJData(data.data))
+  }, []);
   // console.log(jData);
   return (
     <div className="my-container">
@@ -11,7 +17,7 @@ const JobCategory = ({ jData }) => {
         need. Its your future
       </p>
       <div className="flex justify-between mt-12">
-      {jData.data.slice(0,4).map((jData) => (
+      {jData.slice(0,4).map((jData) => (
         <SingleCata key={jData.id} jData={jData}></SingleCata>
       ))}
       </div>

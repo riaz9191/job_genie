@@ -7,7 +7,9 @@ import JobCategory from "./JobCategory";
 import FeaturedJobs from "./Featured Jobs/FeaturedJobs";
 
 const Home = () => {
-  const jData= useLoaderData();
+  const jobs = useLoaderData();
+  console.log(jobs)
+  
   // console.log(jData)
   return (
     <>
@@ -43,8 +45,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <JobCategory key={jData.id} jData={jData} ></JobCategory>
-      <FeaturedJobs></FeaturedJobs>
+      <JobCategory></JobCategory>
+      <FeaturedJobs key={jobs.id} jobs={jobs}></FeaturedJobs>
     </>
   );
 };

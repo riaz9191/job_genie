@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from "react";
 import SingleJob from "./SingleJob";
+import { useLoaderData } from "react-router-dom";
 
-const FeaturedJobs = () => {
-  const [jobs, setJobs] = useState([]);
-  useEffect(() => {
-    fetch('https://raw.githubusercontent.com/Porgramming-Hero-web-course/b7a9-career-hub-riaz9191/main/public/jobs.json?token=GHSAT0AAAAAACAN3SO3QAE2CLCRWSSU52VEZBVGRPQ')
-    .then(res=> res.json())
-    .then(data=>setJobs(data.data))
-  }, []);
+const FeaturedJobs = ({jobs}) => {
+    console.log(jobs)
   return (
     <div className="my-container">
       <h2 className="font-bold text-4xl text-center mt-5 pt-5">
@@ -19,7 +15,7 @@ const FeaturedJobs = () => {
       </p>
       <ul>
         <div className="grid lg:grid-cols-2 gap-8 justify-between mt-12">
-        {jobs.slice(0,4).map((job) => (
+        {jobs.data.slice(0,4).map((job) => (
           <SingleJob 
           key={job.id} job={job}></SingleJob>
         ))}
