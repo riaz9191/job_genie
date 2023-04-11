@@ -27,7 +27,7 @@ const Home = () => {
           </div>
           <div className="flex flex-col items-center md:flex-row">
             <Link
-              to="/books"
+              to="/"
               className="btn md:w-auto md:mr-4 st text-white pl-5 pr-3 pt-3 pb-3 start-applying rounded-lg"
             >
               <div className="inline-flex items-center justify-center w-full h-full">
