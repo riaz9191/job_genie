@@ -13,7 +13,7 @@
       },
       {
         "id": "job002",
-        "logo": "https://example.com/netflix.png",
+        "logo": "./img/netflix.png",
         "name": "UI/UX Designer",
         "company_name": "Netflix Bangladesh",
         "short_description": "Netflix Bangladesh is hiring a UI/UX designer to help create stunning visual designs for our streaming platform.",
@@ -24,7 +24,7 @@
       },
       {
         "id": "job003",
-        "logo": "https://example.com/microsoft.png",
+        "logo": "./img/microsoft-logo-4.png",
         "name": "Cloud Solutions Architect",
         "company_name": "Microsoft Bangladesh",
         "short_description": "Join Microsoft Bangladesh as a Cloud Solutions Architect to help our customers succeed in the cloud.",
@@ -35,7 +35,7 @@
       },
       {
         "id": "job004",
-        "logo": "https://example.com/facebook.png",
+        "logo": "./img/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-13.png",
         "name": "Product Manager",
         "company_name": "Facebook Bangladesh",
         "short_description": "Facebook Bangladesh is looking for a talented product manager to help us build world-class products for our users.",
@@ -46,7 +46,7 @@
       },
       {
         "id": "job005",
-        "logo": "https://example.com/amazon.png",
+        "logo": "./img/woodland-gardening-amazon-png-logoaaaa-vector-8.png",
         "name": "Data Scientist",
         "company_name": "Amazon Bangladesh",
         "short_description": "Amazon Bangladesh is seeking a data scientist to help us make data-driven decisions that impact millions of customers worldwide.",
@@ -57,7 +57,7 @@
       },
       {
         "id": "job006",
-        "logo": "https://example.com/apple.png",
+        "logo": "./img/apple-iphone-logo-png-1.png",
         "name": "iOS Developer",
         "company_name": "Apple Bangladesh",
         "short_description": "Join Apple Bangladesh as an iOS Developer and help us create innovative mobile experiences for our customers.",
