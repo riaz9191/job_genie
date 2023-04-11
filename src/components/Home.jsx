@@ -8,9 +8,7 @@ import FeaturedJobs from "./Featured Jobs/FeaturedJobs";
 
 const Home = () => {
   const jobs = useLoaderData();
-  console.log(jobs)
-  
-  // console.log(jData)
+ 
   return (
     <>
       <div className="my-container mt-10 flex flex-col items-center justify-center md:flex-row lg:flex-row">

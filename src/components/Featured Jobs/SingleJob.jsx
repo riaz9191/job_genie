@@ -1,8 +1,10 @@
 import React from "react";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const SingleJob = ({ job }) => {
   return (
+    <Link to={`/${job.id}`}>
     <div>
       <div className=" p-12 rounded  border">
         <img
@@ -36,6 +38,7 @@ const SingleJob = ({ job }) => {
       </div>
       <div></div>
     </div>
+    </Link>
   );
 };
 
