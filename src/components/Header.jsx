@@ -11,9 +11,9 @@ import {
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 flex items-center justify-around">
+    <div className=" py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 flex items-center justify-around">
       {/* Title section  */}
-      <div>
+      <div >
         <span className="text-3xl text-gray-800 font-bold ml-3  tracking-wide">
           <Link to="/">Job Genie</Link>
         </span>

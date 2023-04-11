@@ -1,71 +1,133 @@
 {
-    "data": [
-      {
-        "id": "job001",
-        "logo": "./img/google-logo-9834.png",
-        "name": "Software Engineer",
-        "company_name": "Google Bangladesh",
-        "short_description": "We're looking for a software engineer to join our team at Google Bangladesh.",
-        "fulltime_or_parttime": "full-time",
-        "remote_or_onsite": "onsite",
-        "location": "Dhaka",
-        "salary": "120,000 - 150,000 BDT/month"
-      },
-      {
-        "id": "job002",
-        "logo": "./img/netflix.png",
-        "name": "UI/UX Designer",
-        "company_name": "Netflix Bangladesh",
-        "short_description": "Netflix Bangladesh is hiring a UI/UX designer to help create stunning visual designs for our streaming platform.",
-        "fulltime_or_parttime": "full-time",
-        "remote_or_onsite": "remote",
-        "location": "Bangladesh",
-        "salary": "80,000 - 100,000 BDT/month"
-      },
-      {
-        "id": "job003",
-        "logo": "./img/microsoft-logo-4.png",
-        "name": "Cloud Solutions Architect",
-        "company_name": "Microsoft Bangladesh",
-        "short_description": "Join Microsoft Bangladesh as a Cloud Solutions Architect to help our customers succeed in the cloud.",
-        "fulltime_or_parttime": "full-time",
-        "remote_or_onsite": "onsite",
-        "location": "Chittagong",
-        "salary": "150,000 - 200,000 BDT/month"
-      },
-      {
-        "id": "job004",
-        "logo": "./img/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-13.png",
-        "name": "Product Manager",
-        "company_name": "Facebook Bangladesh",
-        "short_description": "Facebook Bangladesh is looking for a talented product manager to help us build world-class products for our users.",
-        "fulltime_or_parttime": "part-time",
-        "remote_or_onsite": "onsite",
-        "location": "Khulna",
-        "salary": "50,000 - 60,000 BDT/month"
-      },
-      {
-        "id": "job005",
-        "logo": "./img/woodland-gardening-amazon-png-logoaaaa-vector-8.png",
-        "name": "Data Scientist",
-        "company_name": "Amazon Bangladesh",
-        "short_description": "Amazon Bangladesh is seeking a data scientist to help us make data-driven decisions that impact millions of customers worldwide.",
-        "fulltime_or_parttime": "full-time",
-        "remote_or_onsite": "remote",
-        "location": "Rajshahi",
-        "salary": "120,000 - 150,000 BDT/month"
-      },
-      {
-        "id": "job006",
-        "logo": "./img/apple-iphone-logo-png-1.png",
-        "name": "iOS Developer",
-        "company_name": "Apple Bangladesh",
-        "short_description": "Join Apple Bangladesh as an iOS Developer and help us create innovative mobile experiences for our customers.",
-        "fulltime_or_parttime": "full-time",
-        "remote_or_onsite": "onsite",
-        "location": "Dhaka",
-        "salary": "100,000 - 120,000 BDT/month"
-      }
-    ]
-  }
-  
+  "data": [{
+      "id": "job001",
+      "logo": "./img/google-logo-9834.png",
+      "name": "Software Engineer",
+      "company_name": "Google Bangladesh",
+      "short_description": "We're looking for a software engineer to join our team at Google Bangladesh.",
+      "fulltime_or_parttime": "full-time",
+      "remote_or_onsite": "onsite",
+      "location": "Dhaka",
+      "salary": "120,000 - 150,000 BDT/month",
+      "description": "As a software engineer at Google Bangladesh, you'll work on a variety of projects and technologies, ranging from back-end systems to user-facing applications. You'll collaborate with other engineers, designers, and product managers to build world-class software products.",
+      "responsibilities": "Responsibilities include: writing high-quality code, designing and implementing scalable systems, debugging and troubleshooting issues, collaborating with cross-functional teams, and staying up-to-date with emerging technologies.",
+      "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+      "experiences": "2+ years of experience in software engineering, with a focus on web development, mobile development, or distributed systems.",
+      "job_details": "This is a full-time position, based in our Dhaka office. The role may require occasional travel within Bangladesh or to other Google offices. Benefits include competitive salary, health insurance, and opportunities for professional growth.",
+      "phone": "123-456-7890",
+      "email": "jobs@google.com",
+      "address": "ABC Tower, 123 Main St, Dhaka, Bangladesh"
+    },
+    {
+      "id": "job002",
+      "logo": "./img/netflix.png",
+      "name": "UI/UX Designer",
+      "company_name": "Netflix Bangladesh",
+      "short_description": "Netflix Bangladesh is hiring a UI/UX designer to help create stunning visual designs for our streaming platform.",
+      "fulltime_or_parttime": "full-time",
+      "remote_or_onsite": "remote",
+      "location": "Bangladesh",
+      "salary": "80,000 - 100,000 BDT/month",
+      "description": "As a UI/UX designer at Netflix Bangladesh, you'll work on designing and enhancing the visual experience of our streaming platform. You'll collaborate with other designers, engineers, and product managers to create designs that engage and delight our users.",
+      "responsibilities": "Responsibilities include: creating wireframes and prototypes, designing visual interfaces, conducting user research, collaborating with cross-functional teams, and staying up-to-date with emerging design trends.",
+      "educational_requirements": "Bachelor's or Master's degree in Design or related field.",
+      "experiences": "2+ years of experience in UI/UX design, with a focus on digital products.",
+      "job_details": "This is a full-time position, with the option to work remotely. Benefits include competitive salary, health insurance, and opportunities for professional growth.",
+      "phone": "123-456-7890",
+      "email": "jobs@netflix.com",
+      "address": "XYZ Building, 456 Elm St, Bangladesh"
+    },
+    {
+      "id": "job003",
+      "logo": "./img/microsoft-logo-4.png",
+      "name": "Cloud Solutions Architect",
+      "company_name": "Microsoft Bangladesh",
+      "short_description": "Join Microsoft Bangladesh as a Cloud Solutions Architect to help our customers succeed in the cloud.",
+      "fulltime_or_parttime": "full-time",
+      "remote_or_onsite": "onsite",
+      "location": "Chittagong",
+      "salary": "150,000 - 200,000 BDT/month",
+      "job_description": "As a Cloud Solutions Architect, you will work with customers to understand their business needs and design cloud solutions that meet those needs. You will be responsible for the end-to-end architecture of the solution, from initial design to implementation and maintenance.",
+      "job_responsibilities": "• Work with customers to understand their business needs and design cloud solutions that meet those needs.\n• Develop technical specifications for the solution and work with development teams to implement it.\n• Test and debug the solution to ensure it meets customer requirements.\n• Provide ongoing support and maintenance for the solution.",
+      "educational_requirements": "• Bachelor's or master's degree in computer science or a related field.\n• Experience with cloud computing platforms such as Microsoft Azure or Amazon Web Services.",
+      "experiences": "• At least 5 years of experience in a similar role.\n• Strong understanding of cloud computing technologies and architectures.\n• Experience with developing and implementing cloud solutions.",
+      "job_details": "• Full-time position\n• Onsite work location in Chittagong\n• Competitive salary and benefits package\n• Opportunity to work with a world-class team at Microsoft Bangladesh",
+      "phone": "+880-2-1234567",
+      "email": "hr@microsoft.com",
+      "address": "Microsoft Bangladesh, ABC Tower, Chittagong"
+    },
+    {
+      "id": "job004",
+      "logo": "./img/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-13.png",
+      "name": "Product Manager",
+      "company_name": "Facebook Bangladesh",
+      "short_description": "Facebook Bangladesh is looking for a talented product manager to help us build world-class products for our users.",
+      "fulltime_or_parttime": "part-time",
+      "remote_or_onsite": "onsite",
+      "location": "Khulna",
+      "salary": "50,000 - 60,000 BDT/month",
+      "job_description": "We are seeking a highly motivated and talented Product Manager to help us shape the future of Facebook Bangladesh. The successful candidate will be responsible for defining and driving the roadmap for our products, working closely with cross-functional teams to ensure successful delivery.",
+      "job_responsibilities": [
+        "Define and prioritize product roadmap and feature backlog based on business objectives, market research and customer feedback.",
+        "Collaborate with engineering, design and other cross-functional teams to ensure successful product delivery.",
+        "Lead the ideation, technical development, and launch of innovative products.",
+        "Conduct regular analysis of key performance indicators and user feedback to inform product decisions."
+      ],
+      "job_educational_requirements": "Bachelor's degree in Computer Science or a related field. MBA or equivalent preferred.",
+      "job_experiences": "5+ years of product management experience in a technology company.",
+      "job_details": [
+        "Part-time position, 20-25 hours per week.",
+        "Onsite work required in our Khulna office.",
+        "Flexible schedule available."
+      ],
+      "phone": "+880 1XXX-XXXXXX",
+      "email": "jobs@facebook.com",
+      "address": "Level-4, Bay's Galleria, Khulna"
+    },
+    {
+      "id": "job005",
+      "logo": "./img/woodland-gardening-amazon-png-logoaaaa-vector-8.png",
+      "name": "Data Scientist",
+      "company_name": "Amazon Bangladesh",
+      "short_description": "Amazon Bangladesh is seeking a data scientist to help us make data-driven decisions that impact millions of customers worldwide.",
+      "fulltime_or_parttime": "full-time",
+      "remote_or_onsite": "remote",
+      "location": "Rajshahi",
+      "salary": "120,000 - 150,000 BDT/month",
+      "job_description": "As a Data Scientist at Amazon Bangladesh, you will work on complex and large-scale datasets to solve business problems and help drive key business decisions. You will collaborate with cross-functional teams to design and implement statistical models, algorithms and data visualizations to gain insights into customer behavior and preferences.",
+      "job_responsibilities": "- Analyze and interpret complex data sets to identify trends, patterns, and insights that drive business decisions\n- Build and deploy predictive models and algorithms to improve customer experience and business outcomes\n- Design and implement data visualizations to communicate key insights and metrics to stakeholders\n- Work collaboratively with cross-functional teams to understand business requirements and develop solutions to meet business needs",
+      "job_educational_requirements": "Master's degree in Computer Science, Statistics, Mathematics or related field",
+      "job_experiences": "5+ years of experience in data science, machine learning, or related field",
+      "job_details": "- Develop, test and deploy machine learning models in production\n- Optimize and scale machine learning algorithms to support large-scale data processing\n- Build and maintain data pipelines and infrastructure to support data science work\n- Stay up-to-date with the latest industry trends and techniques in data science and machine learning",
+      "job_title": "Data Scientist",
+      "phone": "+880-123-4567890",
+      "email": "jobs@amazonbd.com",
+      "address": "Amazon Bangladesh, ABC Tower, Rajshahi"
+    },
+    {
+      "id": "job006",
+      "logo": "./img/apple-iphone-logo-png-1.png",
+      "name": "iOS Developer",
+      "company_name": "Apple Bangladesh",
+      "short_description": "Join Apple Bangladesh as an iOS Developer and help us create innovative mobile experiences for our customers.",
+      "fulltime_or_parttime": "full-time",
+      "remote_or_onsite": "onsite",
+      "location": "Dhaka",
+      "salary": "100,000 - 120,000 BDT/month",
+      "job_description": "We are looking for an experienced iOS developer to join our team and help us create innovative mobile applications for our customers. The successful candidate will have a strong understanding of iOS development and be able to work effectively in a team environment.",
+      "job_responsibility": [
+        "Develop and maintain iOS applications for our customers",
+        "Work collaboratively with cross-functional teams to design and develop new features",
+        "Ensure the performance, quality, and responsiveness of applications",
+        "Identify and correct bottlenecks and fix bugs",
+        "Help maintain code quality, organization, and automation"
+      ],
+      "job_educational_requirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or related field",
+      "job_experience": "3+ years of experience in iOS development",
+      "job_details": "This is a full-time, onsite position in our Dhaka office.",
+      "phone": "+880-1711-111111",
+      "email": "jobs@applebangladesh.com",
+      "address": "1234 Apple Street, Dhaka, Bangladesh"
+    }
+  ]
+}
