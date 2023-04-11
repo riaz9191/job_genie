@@ -19,7 +19,7 @@ const FeaturedJobs = () => {
       </p>
       <ul>
         <div className="grid lg:grid-cols-2 gap-8 justify-between mt-12">
-        {jobs.map((job) => (
+        {jobs.slice(0,4).map((job) => (
           <SingleJob 
           key={job.id} job={job}></SingleJob>
         ))}
