@@ -1,0 +1,53 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "logo": "./img/accounts.png",
+        "name": "Account & Finance",
+        "description": "300 Jobs Available"
+      },
+      {
+        "id": 2,
+        "logo": "./img/creativity.png",
+        "name": "Creative Design",
+        "description": "100+ Jobs Available"
+      },
+      {
+        "id": 3,
+        "logo": "./img/bullhorn.png",
+        "name": "Marketing & Sales",
+        "description": "150 Jobs Available"
+      },
+      {
+        "id": 4,
+        "logo": "./img/worker.png",
+        "name": "Engineering Job",
+        "description": "224 Jobs Available"
+      },
+      {
+        "id": 5,
+        "logo": "https://example.com/logo5.png",
+        "name": "Company E",
+        "description": "Company E is a provider of cloud-based storage and collaboration tools for businesses."
+      },
+      {
+        "id": 6,
+        "logo": "https://example.com/logo6.png",
+        "name": "Company F",
+        "description": "Company F provides marketing services to help businesses increase their online presence."
+      },
+      {
+        "id": 7,
+        "logo": "https://example.com/logo7.png",
+        "name": "Company G",
+        "description": "Company G is a provider of software solutions for the healthcare industry."
+      },
+      {
+        "id": 8,
+        "logo": "https://example.com/logo8.png",
+        "name": "Company H",
+        "description": "Company H specializes in developing e-commerce solutions for businesses of all sizes."
+      }
+    ]
+  }
+  

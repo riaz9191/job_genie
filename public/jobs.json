@@ -1,0 +1,71 @@
+{
+    "data": [
+      {
+        "id": "job001",
+        "logo": "https://example.com/google.png",
+        "name": "Software Engineer",
+        "company_name": "Google Bangladesh",
+        "short_description": "We're looking for a software engineer to join our team at Google Bangladesh.",
+        "fulltime_or_parttime": "full-time",
+        "remote_or_onsite": "onsite",
+        "location": "Dhaka",
+        "salary": "120,000 - 150,000 BDT/month"
+      },
+      {
+        "id": "job002",
+        "logo": "https://example.com/netflix.png",
+        "name": "UI/UX Designer",
+        "company_name": "Netflix Bangladesh",
+        "short_description": "Netflix Bangladesh is hiring a UI/UX designer to help create stunning visual designs for our streaming platform.",
+        "fulltime_or_parttime": "full-time",
+        "remote_or_onsite": "remote",
+        "location": "Bangladesh",
+        "salary": "80,000 - 100,000 BDT/month"
+      },
+      {
+        "id": "job003",
+        "logo": "https://example.com/microsoft.png",
+        "name": "Cloud Solutions Architect",
+        "company_name": "Microsoft Bangladesh",
+        "short_description": "Join Microsoft Bangladesh as a Cloud Solutions Architect to help our customers succeed in the cloud.",
+        "fulltime_or_parttime": "full-time",
+        "remote_or_onsite": "onsite",
+        "location": "Chittagong",
+        "salary": "150,000 - 200,000 BDT/month"
+      },
+      {
+        "id": "job004",
+        "logo": "https://example.com/facebook.png",
+        "name": "Product Manager",
+        "company_name": "Facebook Bangladesh",
+        "short_description": "Facebook Bangladesh is looking for a talented product manager to help us build world-class products for our users.",
+        "fulltime_or_parttime": "part-time",
+        "remote_or_onsite": "onsite",
+        "location": "Khulna",
+        "salary": "50,000 - 60,000 BDT/month"
+      },
+      {
+        "id": "job005",
+        "logo": "https://example.com/amazon.png",
+        "name": "Data Scientist",
+        "company_name": "Amazon Bangladesh",
+        "short_description": "Amazon Bangladesh is seeking a data scientist to help us make data-driven decisions that impact millions of customers worldwide.",
+        "fulltime_or_parttime": "full-time",
+        "remote_or_onsite": "remote",
+        "location": "Rajshahi",
+        "salary": "120,000 - 150,000 BDT/month"
+      },
+      {
+        "id": "job006",
+        "logo": "https://example.com/apple.png",
+        "name": "iOS Developer",
+        "company_name": "Apple Bangladesh",
+        "short_description": "Join Apple Bangladesh as an iOS Developer and help us create innovative mobile experiences for our customers.",
+        "fulltime_or_parttime": "full-time",
+        "remote_or_onsite": "onsite",
+        "location": "Dhaka",
+        "salary": "100,000 - 120,000 BDT/month"
+      }
+    ]
+  }
+  

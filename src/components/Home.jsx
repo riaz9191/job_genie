@@ -2,18 +2,21 @@ import React from "react";
 import Lottie from "lottie-react";
 import job from "../assets/75702-job-proposal-review-animation.json";
 import { ShoppingCartIcon } from "@heroicons/react/24/solid";
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import JobCategory from "./JobCategory";
+import FeaturedJobs from "./Featured Jobs/FeaturedJobs";
 
 const Home = () => {
+  const jData= useLoaderData();
+  // console.log(jData)
   return (
     <>
-      <div className="my-container flex flex-col items-center justify-center md:flex-row lg:flex-row">
+      <div className="my-container mt-10 flex flex-col items-center justify-center md:flex-row lg:flex-row">
         {/* Text Content */}
         <div className="mb-10 lg:max-w-lg  lg:pr-5 lg:mb-0">
           <div className="max-w-xl mb-6 lg:mt-8">
             <h2 className="max-w-lg mb-6 font-sans text-6xl font-bold tracking-wider text-gray-900 sm:text-4xl sm:leading-none ">
-              One Step <br /> Closer To Your <br className="hidden md:block" />
+              One Step <br className="" /> Closer To Your <br className="hidden md:block" />
               <span className="inline-block text-blue-400">Dream Job</span>
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
@@ -40,7 +43,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <JobCategory></JobCategory>
+      <JobCategory key={jData.id} jData={jData} ></JobCategory>
+      <FeaturedJobs></FeaturedJobs>
     </>
   );
 };
