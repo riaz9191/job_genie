@@ -30,14 +30,14 @@ const AppliedJobs = () => {
   return (
     <div>
       <div>
-        <h1 className="text-center mt-24 mb-20 font-bold text-4xl">
+        <h1 className="text-center mt-6 md:mt-24 mb-6 md:mb-20 font-bold text-4xl">
           Applied Jobs
         </h1>
       </div>
       <div>
-        <div className="flex justify-end mr-20">
+        <div className="flex justify-end md:mr-20">
           <Menu as="div" className="relative inline-block text-left">
-            <div className="mr-40">
+            <div className="md:mr-40">
               <Menu.Button className="st inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 bg-gray-300 rounded-md hover:bg-gray-400  focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 ">
                 Filter by: {selectedFilter}
               </Menu.Button>
