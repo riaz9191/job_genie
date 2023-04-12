@@ -1,7 +1,7 @@
 {
   "data": [{
       "id": "job001",
-      "logo": "./img/google.png",
+      "logo": "https://ibb.co/LSpJP1Z",
       "name": "Software Engineer",
       "company_name": "Google Bangladesh",
       "short_description": "We're looking for a software engineer to join our team at Google Bangladesh.",
@@ -20,7 +20,7 @@
     },
     {
       "id": "job002",
-      "logo": "./img/netflix.png",
+      "logo": "https://ibb.co/1mZyfSJ",
       "name": "UI/UX Designer",
       "company_name": "Netflix Bangladesh",
       "short_description": "Netflix Bangladesh is hiring a UI/UX designer to help create stunning visual designs for our streaming platform.",
@@ -39,7 +39,7 @@
     },
     {
       "id": "job003",
-      "logo": "./img/microsoft-logo-4.png",
+      "logo": "https://ibb.co/r0MWBn6",
       "name": "Cloud Solutions Architect",
       "company_name": "Microsoft Bangladesh",
       "short_description": "Join Microsoft Bangladesh as a Cloud Solutions Architect to help our customers succeed in the cloud.",
@@ -58,7 +58,7 @@
     },
     {
       "id": "job004",
-      "logo": "./img/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-13.png",
+      "logo": "https://ibb.co/JFdmYHR",
       "name": "Product Manager",
       "company_name": "Facebook Bangladesh",
       "short_description": "Facebook Bangladesh is looking for a talented product manager to help us build world-class products for our users.",
@@ -86,7 +86,7 @@
     },
     {
       "id": "job005",
-      "logo": "./img/woodland-gardening-amazon-png-logoaaaa-vector-8.png",
+      "logo": "https://ibb.co/bJPZ4XC",
       "name": "Data Scientist",
       "company_name": "Amazon Bangladesh",
       "short_description": "Amazon Bangladesh is seeking a data scientist to help us make data-driven decisions that impact millions of customers worldwide.",
@@ -106,7 +106,7 @@
     },
     {
       "id": "job006",
-      "logo": "./img/apple-iphone-logo-png-1.png",
+      "logo": "https://ibb.co/QCRH6YQ",
       "name": "iOS Developer",
       "company_name": "Apple Bangladesh",
       "short_description": "Join Apple Bangladesh as an iOS Developer and help us create innovative mobile experiences for our customers.",

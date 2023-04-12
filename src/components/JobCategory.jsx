@@ -5,7 +5,7 @@ const JobCategory = () => {
   const [jData, setJData] = useState([]);
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/Porgramming-Hero-web-course/b7a9-career-hub-riaz9191/main/public/categoryData.json?token=GHSAT0AAAAAACAN3SO36FCZRBJOKEQW6CKKZBWEPPQ"
+      "https://raw.githubusercontent.com/Porgramming-Hero-web-course/b7a9-career-hub-riaz9191/main/public/categoryData.json?token=GHSAT0AAAAAACAN3SO2KB653K57SHV4FK3CZBWIPYA"
     ) 
       .then((res) => res.json())
       .then((data) => setJData(data.data));
