@@ -8,6 +8,7 @@ import {
   MapPinIcon,
 } from "@heroicons/react/24/solid";
 import { addToDb } from "../../utils/fakeDB";
+import { toast } from "react-hot-toast";
 
 const MainDetails = () => {
     const handleAddJob = obj =>{
@@ -15,7 +16,7 @@ const MainDetails = () => {
         const prevApplied = JSON.parse(localStorage.getItem('job-list')) || []
         prevApplied.push(obj)
         localStorage.setItem('job-list',JSON.stringify(prevApplied))
-        
+        toast.success('Applied 🔥')
     }
   const { id } = useParams();
   const [details, setDetails] = useState({});
