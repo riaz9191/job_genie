@@ -10,22 +10,24 @@ import Blogs from "./components/Blogs";
 import MainDetails from "./components/Featured Jobs/MainDetails";
 import { jobData } from "./loader/getData";
 import { Toaster } from "react-hot-toast";
+import ErrorPage from "./components/ErrorPage";
+import Error404 from "./components/Error404/Error404";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    // errorElement: <error></error>,
+    errorElement: <Error404/>,
     children: [
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("jobs.json"),
+        loader: () => fetch("/jobs.json"),
       },
       {
         path: "/:id",
         element: <MainDetails />,
-        loader: () => fetch("jobs.json"),
+        loader: () => fetch("/jobs.json"),
       },
       {
         path: "/statistics",
@@ -40,6 +42,10 @@ const router = createBrowserRouter([
         path: "/blogs",
         element: <Blogs />,
       },
+      // {
+      //   path: "/*",
+      //   element: <ErrorPage />,
+      // },
     ],
   },
 ]);

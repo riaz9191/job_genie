@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 const SingleJob = ({ job }) => {
   return (
-    <Link to={`/${job.id}`}>
     <div>
       <div className=" p-12 rounded  border">
         <img
@@ -34,11 +33,15 @@ const SingleJob = ({ job }) => {
             {job.salary}
           </p>
         </div>
-        <button className="st text-white pr-4 pl-4 pt-2 pb-2 mt-3 rounded-md">View Details</button>
+        <Link to={`/${job.id}`}>
+          {" "}
+          <button className="st text-white pr-4 pl-4 pt-2 pb-2 mt-3 rounded-md">
+            View Details
+          </button>
+        </Link>
       </div>
       <div></div>
     </div>
-    </Link>
   );
 };
 

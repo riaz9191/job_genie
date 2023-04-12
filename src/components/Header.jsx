@@ -22,6 +22,12 @@ const Header = () => {
       <nav className="">
         <ul className="items-center space-x-8 hidden lg:flex">
           <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? "active" : "default")}
+          >
+            Home
+          </NavLink>
+          <NavLink
             to="/statistics"
             className={({ isActive }) => (isActive ? "active" : "default")}
           >

@@ -20,18 +20,15 @@ const Statistics = () => {
     { id: 7, name: "Assignment 8", score: 60 },
   ];
 
-  const totalScore = assignments.reduce((total, assignment) => {
-    return total + assignment.score;
-  }, 0);
+  //calculate total score
+  const totalScore = assignments.reduce((acc, curr) => acc + curr.score, 0);
 
   return (
     <div>
-      <h2>Statistics</h2>
+      <h2 className="font-bold text-center my-6">Assignment Marks</h2>
       <div className="my-container">
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%" height={400}>
           <AreaChart
-            width={500}
-            height={400}
             data={assignments}
             margin={{
               top: 10,
@@ -52,9 +49,9 @@ const Statistics = () => {
             />
           </AreaChart>
         </ResponsiveContainer>
-        <div className="flex justify-center font-bold text-xl mt-5">
-          Total Score: {totalScore}/420
-        </div>
+      </div>
+      <div className="flex justify-center mt-4 font-bold">
+        <p>Total score: {totalScore}/420</p>
       </div>
     </div>
   );
