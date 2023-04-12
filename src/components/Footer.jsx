@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-black text-white pt-10 pb-5">
-        <div className="my-container flex gap-4 ">
-          <div className="pl-20 pr-10 ">
+        <div className="my-container flex flex-row flex-wrap gap-4 px-4 md:px-0">
+          <div className="pl-0 md:pl-20 pr-10">
             <h1 className="font-bold text-3xl">JobGenie</h1>
             <p className="text-gray-500 mt-3">
               There are many variations of passages <br /> of Lorem Ipsum , but
               the majority have <br /> suffered alteration in some form.
-              <div className="flex gap-4 mt-4 ">
+              <div className="flex gap-4 mt-4">
                 <p>
                   <img
                     className="w-10"
@@ -35,7 +35,7 @@ const Footer = () => {
               </div>
             </p>
           </div>
-          <div  className=" pr-10">
+          <div className=" pr-10">
             <h1 className="font-bold text-xl">Company</h1>
             <p className="text-gray-500 mt-3">About Us</p>
             <p className="text-gray-500 mt-3">Work</p>
@@ -62,9 +62,9 @@ const Footer = () => {
             <p className="text-gray-500 mt-3">+1 777 - 978 - 5570</p>
           </div>
         </div>
-          <div className="divide ml-20 mr-20 pt-0">
+        <div className="divide ml-4 md:ml-20 mr-4 md:mr-20 pt-0">
           <hr className="border-gray-700" />
-            <div className="flex justify-between">
+          <div className="flex justify-between">
             <h1 className="text-gray-500 mt-7">@2023 JobGenie. All Rights Reserved</h1>
             <h1 className="text-gray-500 mt-7">Powered by JobGenie</h1>
             </div>
