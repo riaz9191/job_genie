@@ -7,8 +7,16 @@ import {
   EnvelopeIcon,
   MapPinIcon,
 } from "@heroicons/react/24/solid";
+import { addToDb } from "../../utils/fakeDB";
 
-const MainDetails = ({handleAddJob}) => {
+const MainDetails = () => {
+    const handleAddJob = obj =>{
+        console.log(obj)
+        const prevApplied = JSON.parse(localStorage.getItem('job-list')) || []
+        prevApplied.push(obj)
+        localStorage.setItem('job-list',JSON.stringify(prevApplied))
+        
+    }
   const { id } = useParams();
   const [details, setDetails] = useState({});
   useEffect(() => {
@@ -89,7 +97,7 @@ const MainDetails = ({handleAddJob}) => {
             </p>
           </div>
           <div className="ml-12 mt-5 pr-20 justify-end">
-            <button onClick={()=>handleAddJob(id)} className="text-xl w-full st pl-4 pr-4 pt-2 pb-2 text-white rounded-xl">
+            <button onClick={()=>handleAddJob(details)} className="text-xl w-full st pl-4 pr-4 pt-2 pb-2 text-white rounded-xl">
               Apply Now
             </button>
           </div>

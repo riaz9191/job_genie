@@ -1,1 +1,20 @@
 #5A53EB
+import { getStoredCart } from '../utils/fakeDB'
+
+export const jobData = async () => {
+    const jobsData = await fetch('jobs.json')
+    const jobs = await jobsData.json()
+
+    const savedJob = getStoredCart()
+    const initialCart = []
+    for (const id in savedJob) {
+        const foundProduct = jobs.data.find(product => product.id === id)
+        if (foundProduct) {
+            const quantity = savedJob[id]
+            foundProduct.quantity = quantity
+            initialCart.push(foundProduct)
+        }
+    }
+
+    return { products: jobs, initialCart }
+}

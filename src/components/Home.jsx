@@ -45,6 +45,7 @@ const Home = () => {
       </div>
       <JobCategory></JobCategory>
       <FeaturedJobs key={jobs.id} jobs={jobs}></FeaturedJobs>
+      
     </>
   );
 };

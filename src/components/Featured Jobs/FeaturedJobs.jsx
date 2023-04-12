@@ -10,7 +10,11 @@ const FeaturedJobs = ({jobs}) => {
     //         jobs.data.map(job=><JobDetails key={job.id} jobs={job}></JobDetails>)
     //     }
     // </div>
-    <JobDetails key={jobs.id} jobs={jobs}></JobDetails>
+    <div>
+      <JobDetails key={jobs.id} jobs={jobs}></JobDetails>
+      
+    </div>
+    
   );
 };
 
